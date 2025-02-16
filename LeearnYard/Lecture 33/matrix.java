@@ -31,7 +31,7 @@ class matrix {
 
                     //Calculate ans[i][j]
                     int cur = 0;
-                    for(int k = 0; k < 0; k++)
+                    for(int k = 0; k < B; k++)
                         cur += m1[i][k]+m2[k][j];
 
                         ans[i][j] = cur;
@@ -43,5 +43,7 @@ class matrix {
                         System.out.print(ans[i][j] + " ")
                     System.out.println();
                 }
+
+                sc.close();
     }
 }
