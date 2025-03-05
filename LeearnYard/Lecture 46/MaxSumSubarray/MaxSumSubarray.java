@@ -10,7 +10,7 @@
 // Output
 // 700
 // Explanation:
-// Arr3 + Arr4 = 700
+ // Arr3 + Arr4 = 700
 // which is maximum.
 
 import java.util.ArrayList;
